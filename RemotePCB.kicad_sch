@@ -5,7 +5,11 @@
 	(uuid "99b68812-833f-43a9-a972-6383a581a604")
 	(paper "A4")
 	(lib_symbols
+<<<<<<< HEAD
 		(symbol "Device:C_Polarized"
+=======
+		(symbol "Device:C"
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,7 +28,11 @@
 					(justify left)
 				)
 			)
+<<<<<<< HEAD
 			(property "Value" "C_Polarized"
+=======
+			(property "Value" "C"
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -51,7 +59,11 @@
 					(hide yes)
 				)
 			)
+<<<<<<< HEAD
 			(property "Description" "Polarized capacitor"
+=======
+			(property "Description" "Unpolarized capacitor"
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +81,11 @@
 					(hide yes)
 				)
 			)
+<<<<<<< HEAD
 			(property "ki_fp_filters" "CP_*"
+=======
+			(property "ki_fp_filters" "C_*"
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,12 +94,22 @@
 					(hide yes)
 				)
 			)
+<<<<<<< HEAD
 			(symbol "C_Polarized_0_1"
 				(rectangle
 					(start -2.286 0.508)
 					(end 2.286 1.016)
 					(stroke
 						(width 0)
+=======
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 						(type default)
 					)
 					(fill
@@ -92,16 +118,24 @@
 				)
 				(polyline
 					(pts
+<<<<<<< HEAD
 						(xy -1.778 2.286) (xy -0.762 2.286)
 					)
 					(stroke
 						(width 0)
+=======
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+<<<<<<< HEAD
 				(polyline
 					(pts
 						(xy -1.27 2.794) (xy -1.27 1.778)
@@ -127,6 +161,10 @@
 				)
 			)
 			(symbol "C_Polarized_1_1"
+=======
+			)
+			(symbol "C_1_1"
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1645,6 +1683,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< HEAD
 		(symbol "SSD1306-128x64_OLED:SSD1306"
 			(pin_names
 				(offset 1.016)
@@ -1806,73 +1845,303 @@
 	(wire
 		(pts
 			(xy 132.08 82.55) (xy 121.92 82.55)
+=======
+	)
+	(junction
+		(at 69.85 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "241e30db-0ca5-42a2-a6ee-116fad095523")
+	)
+	(junction
+		(at 77.47 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3370d054-f419-4347-bf94-9aeb7cb13996")
+	)
+	(wire
+		(pts
+			(xy 34.29 96.52) (xy 31.75 96.52)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "92ac0583-8250-4bcd-8eaa-e6fcb9fee621")
 	)
 	(wire
 		(pts
 			(xy 109.22 80.01) (xy 132.08 80.01)
+=======
+		(uuid "06a57773-f049-466a-89bd-76b6d5b6214a")
+	)
+	(wire
+		(pts
+			(xy 69.85 111.76) (xy 64.77 111.76)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "a40b8d8e-3c60-4cc1-aa4c-e0f3e3f67856")
 	)
 	(wire
 		(pts
 			(xy 121.92 82.55) (xy 121.92 87.63)
+=======
+		(uuid "09b16901-23a6-46c9-b696-c46cbc54c2ec")
+	)
+	(wire
+		(pts
+			(xy 77.47 128.27) (xy 77.47 135.89)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "d86b5df4-9ec3-4162-ae98-b1e02e9f4af3")
 	)
 	(wire
 		(pts
 			(xy 121.92 87.63) (xy 109.22 87.63)
+=======
+		(uuid "11b11c45-9520-466c-842f-50525ed1efb4")
+	)
+	(wire
+		(pts
+			(xy 48.26 132.08) (xy 48.26 135.89)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "f8072c81-41c3-481e-a01e-5d98e9f0c815")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 109.22 83.82 0)
+=======
+		(uuid "1502a703-95c0-4194-907d-937426bb86bc")
+	)
+	(wire
+		(pts
+			(xy 69.85 134.62) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269c876a-5f32-489c-af5d-2471de1fe4d2")
+	)
+	(wire
+		(pts
+			(xy 25.4 93.98) (xy 25.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa5ac87-9ab9-4abe-9eb2-4642c2a745a8")
+	)
+	(wire
+		(pts
+			(xy 22.86 135.89) (xy 22.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379bc5cb-824e-438a-a8e8-0804a8f65e2d")
+	)
+	(wire
+		(pts
+			(xy 69.85 128.27) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fe8f38-209d-4d86-a35f-f6fbec7fc47a")
+	)
+	(wire
+		(pts
+			(xy 25.4 132.08) (xy 48.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c80cdbe-ebe7-4f6b-98a8-7fd373257dc1")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ea5096-59e6-4f23-9911-54dc2dbf9995")
+	)
+	(wire
+		(pts
+			(xy 77.47 135.89) (xy 53.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a86f289-ff02-4698-a610-049fe3c1dccf")
+	)
+	(wire
+		(pts
+			(xy 43.18 135.89) (xy 22.86 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cf80eb-82a7-46f0-b156-b336e3fcef87")
+	)
+	(wire
+		(pts
+			(xy 45.72 129.54) (xy 45.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fac4add-f9ee-4be6-baac-a33f4b5a155c")
+	)
+	(wire
+		(pts
+			(xy 34.29 93.98) (xy 25.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c54c5fe-f996-47ff-b9cd-4db9a2b2ed31")
+	)
+	(wire
+		(pts
+			(xy 50.8 134.62) (xy 69.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad95e9ae-0ec6-4e58-a017-622f5ffc471b")
+	)
+	(wire
+		(pts
+			(xy 77.47 55.88) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57d77e9-c355-4951-b325-3063bec2a049")
+	)
+	(wire
+		(pts
+			(xy 22.86 81.28) (xy 34.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb35b464-820b-4387-9664-ce1ff973702b")
+	)
+	(wire
+		(pts
+			(xy 31.75 96.52) (xy 31.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b1626b-a968-4894-9e9b-f02e8cf91707")
+	)
+	(wire
+		(pts
+			(xy 50.8 135.89) (xy 50.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6debe1a-cb0f-485c-b743-5a8a52cae85e")
+	)
+	(wire
+		(pts
+			(xy 31.75 129.54) (xy 45.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7f9efe-e310-4e1f-a471-7a456f938b65")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 128.27 90)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "567f479f-d839-480d-b9d1-5a8995d43b8e")
 		(property "Reference" "C1"
 			(at 113.03 81.6609 0)
+=======
+		(uuid "b752ecf0-160a-4944-b7f1-9e1d812210f5")
+		(property "Reference" "100 F"
+			(at 73.66 120.65 90)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify left)
 			)
 		)
 		(property "Value" "220 mF"
 			(at 113.03 84.2009 0)
+=======
+			)
+		)
+		(property "Value" "C"
+			(at 73.66 123.19 90)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify left)
 			)
 		)
 		(property "Footprint" ""
 			(at 110.1852 87.63 0)
+=======
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 127.3048 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +2150,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< HEAD
 			(at 109.22 83.82 0)
+=======
+			(at 73.66 128.27 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,8 +2162,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "Polarized capacitor"
 			(at 109.22 83.82 0)
+=======
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 128.27 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,15 +2176,24 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(pin "1"
 			(uuid "ca3a92a2-e8c1-4288-9185-3197ea1793a4")
 		)
 		(pin "2"
 			(uuid "00e576b2-02c4-448a-8736-84d16778b161")
+=======
+		(pin "2"
+			(uuid "936f4082-e326-4536-b67f-0c9ff7774281")
+		)
+		(pin "1"
+			(uuid "ce889b0d-f9c9-4fdb-a683-b08bd11df9c9")
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		)
 		(instances
 			(project ""
 				(path "/99b68812-833f-43a9-a972-6383a581a604"
+<<<<<<< HEAD
 					(reference "C1")
 					(unit 1)
 				)
@@ -2075,6 +2362,9 @@
 			(project ""
 				(path "/99b68812-833f-43a9-a972-6383a581a604"
 					(reference "M1")
+=======
+					(reference "100 F")
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 					(unit 1)
 				)
 			)
@@ -2082,16 +2372,26 @@
 	)
 	(symbol
 		(lib_id "ESP32-S3-WROOM-1U-N16R8:ESP32-S3-WROOM-1U-N16R8")
+<<<<<<< HEAD
 		(at 59.69 66.04 0)
+=======
+		(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "b837368f-e9df-42b8-9c9c-565e4f154fa8")
 		(property "Reference" "U1"
 			(at 59.69 30.48 0)
+=======
+		(uuid "bc3356b3-a385-4bdb-a5fb-10e06c1b7776")
+		(property "Reference" "U1"
+			(at 49.53 48.26 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2399,11 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1U-N16R8"
+<<<<<<< HEAD
 			(at 59.69 33.02 0)
+=======
+			(at 49.53 50.8 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2411,11 @@
 			)
 		)
 		(property "Footprint" "ESP32-S3-WROOM-1U-N16R8:XCVR_ESP32-S3-WROOM-1U-N16R8"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2425,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2438,11 @@
 			)
 		)
 		(property "Description" ""
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2451,11 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2465,11 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.35mm"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2479,11 @@
 			)
 		)
 		(property "Package" "SMD-41 Espressif Systems"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2493,11 @@
 			)
 		)
 		(property "Price" "None"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2507,11 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U-N16R8/Espressif+Systems/view-part/?ref=eda"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2521,11 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2535,11 @@
 			)
 		)
 		(property "PARTREV" "v1.1"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2549,11 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U-N16R8/Espressif+Systems/view-part/?ref=snap"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2563,11 @@
 			)
 		)
 		(property "MP" "ESP32-S3-WROOM-1U-N16R8"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2577,11 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12130177&manufacturer=Espressif Systems&part_name=ESP32-S3-WROOM-1U-N16R8&search_term=None"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2591,11 @@
 			)
 		)
 		(property "Description_1" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Antenna Not Included, U.FL Surface Mount"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2605,11 @@
 			)
 		)
 		(property "Availability" "In Stock"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2619,11 @@
 			)
 		)
 		(property "MANUFACTURER" "Espressif Systems"
+<<<<<<< HEAD
 			(at 59.69 66.04 0)
+=======
+			(at 49.53 83.82 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,6 +2633,7 @@
 			)
 		)
 		(pin "36"
+<<<<<<< HEAD
 			(uuid "4adf4f84-6a4d-4f7a-a809-cfcde16dda5a")
 		)
 		(pin "3"
@@ -2410,6 +2779,153 @@
 		)
 		(pin "41_8"
 			(uuid "57bda858-41a7-479b-86f9-7b822deffd6f")
+=======
+			(uuid "61032a5d-6d1b-4ec1-a444-2952bca975c2")
+		)
+		(pin "8"
+			(uuid "7321bc7d-70ef-4470-b2c9-c65b0ee3324b")
+		)
+		(pin "28"
+			(uuid "bd478032-2733-47e9-a48e-37c3a60b65cc")
+		)
+		(pin "12"
+			(uuid "43983017-c639-4144-a7dc-16f4853f9223")
+		)
+		(pin "20"
+			(uuid "f999991e-b6ac-4541-a452-d898856bae6d")
+		)
+		(pin "27"
+			(uuid "ce0cdfd3-c188-466d-a36e-7a11abf83576")
+		)
+		(pin "6"
+			(uuid "c0ad4e60-d00c-46d6-a844-79ad07266968")
+		)
+		(pin "15"
+			(uuid "4986f523-ff09-4bba-92e4-6ea73bb3e08d")
+		)
+		(pin "39"
+			(uuid "f1cc64db-609e-44b0-a48b-87c5b1c1d5ff")
+		)
+		(pin "7"
+			(uuid "6b1d9707-6f5f-4b5d-900a-15f5ac6910e2")
+		)
+		(pin "37"
+			(uuid "8b2ab01c-c880-4063-bcff-f4010d2dd2a4")
+		)
+		(pin "9"
+			(uuid "b7f08717-2fdc-4f0d-873f-e0d90415952f")
+		)
+		(pin "14"
+			(uuid "b8290a2d-32c4-4425-8ff9-d50bd23b1d44")
+		)
+		(pin "4"
+			(uuid "4ffb1e01-2909-4cf2-8317-2deb607d581d")
+		)
+		(pin "11"
+			(uuid "05ac8a48-05d1-42c8-98fc-32ffdcd80582")
+		)
+		(pin "5"
+			(uuid "64551ac3-f87c-4ada-b741-7f784ca258dc")
+		)
+		(pin "23"
+			(uuid "6d751ceb-03cf-4c5f-96db-848f231ee8d0")
+		)
+		(pin "10"
+			(uuid "35500850-acdc-4039-854d-97a5a1693660")
+		)
+		(pin "3"
+			(uuid "51be066b-6e9f-4871-949e-8f288bd921f8")
+		)
+		(pin "17"
+			(uuid "8b279cb8-8956-4e72-8154-248d77405d4d")
+		)
+		(pin "38"
+			(uuid "8f482e3a-5234-451c-b56f-8f3900bf5f7f")
+		)
+		(pin "18"
+			(uuid "c2a30365-43d8-4794-934e-000bd7c6da1c")
+		)
+		(pin "19"
+			(uuid "2f137ec0-b8f5-4dc6-a9c8-becfe59604fe")
+		)
+		(pin "21"
+			(uuid "9d52b65c-c56e-4120-af20-c26e3cfa9059")
+		)
+		(pin "22"
+			(uuid "9df322b9-3d41-42d7-98cf-cc3d89d68cf1")
+		)
+		(pin "2"
+			(uuid "e4f00c1d-1277-4f90-965a-0ea3ca85fa41")
+		)
+		(pin "13"
+			(uuid "e3ae4494-b490-433b-8d81-7285c199b0ee")
+		)
+		(pin "29"
+			(uuid "cc808e96-a4f7-407d-a0f2-0a79ffa623d9")
+		)
+		(pin "41_4"
+			(uuid "21fe0de8-a224-492e-9d2a-88867e9f88d9")
+		)
+		(pin "25"
+			(uuid "3b0eaf48-e8c7-4b30-8bed-39020ce608fa")
+		)
+		(pin "33"
+			(uuid "7d728317-3790-49a0-a6f1-787b17b7788d")
+		)
+		(pin "41_2"
+			(uuid "c60350b7-13c1-4e0c-9f4d-d60b1fe2dc4d")
+		)
+		(pin "1"
+			(uuid "10db6a82-abd0-41fe-aaf8-b4b11fc6a4cb")
+		)
+		(pin "31"
+			(uuid "f659a784-e499-41cf-9baa-f706f8cd8a00")
+		)
+		(pin "41_5"
+			(uuid "345eca1f-cb06-4ea5-a460-12da0ba399a3")
+		)
+		(pin "16"
+			(uuid "e028d9a5-4dd8-424a-9c1e-176340c56707")
+		)
+		(pin "41_6"
+			(uuid "bce94b91-96cf-4af1-8c71-f7de85dafc1c")
+		)
+		(pin "30"
+			(uuid "d1f711fd-3681-40f3-9eae-7efa067dba05")
+		)
+		(pin "35"
+			(uuid "293ca6db-c9ad-4f02-8bdd-a8ecd504408f")
+		)
+		(pin "32"
+			(uuid "fc8dc96c-f29d-4436-b1f7-b82747450225")
+		)
+		(pin "34"
+			(uuid "61965e86-13f3-45c4-a456-242534148bda")
+		)
+		(pin "26"
+			(uuid "d87e088b-c0f8-4e43-8733-1ccaed34b78e")
+		)
+		(pin "24"
+			(uuid "dd8547fe-4e5c-4257-8ba4-72198b06f2ab")
+		)
+		(pin "40"
+			(uuid "2e6bea6f-9c43-4d0c-bda4-c74f29ba110f")
+		)
+		(pin "41_3"
+			(uuid "be1386c2-12c1-4ccb-ac3e-90e75f4fb593")
+		)
+		(pin "41_1"
+			(uuid "79bb4fc3-85a7-45f4-86e5-5969e5374c97")
+		)
+		(pin "41_7"
+			(uuid "be5e42f6-0a7f-40cf-b607-44b649a5ce6a")
+		)
+		(pin "41_8"
+			(uuid "89c82169-4c44-4371-bb70-4e328925b685")
+		)
+		(pin "41_9"
+			(uuid "36d6d51c-57f2-4f54-967b-fb1c0cd9bf2d")
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		)
 		(instances
 			(project ""
@@ -2421,44 +2937,77 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "SSD1306-128x64_OLED:SSD1306")
 		(at 139.7 53.34 90)
+=======
+		(lib_id "HC-12:HC-12")
+		(at 48.26 153.67 270)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "c400714d-8347-4c1d-a83b-3453b427e983")
 		(property "Reference" "OLEDScreen"
 			(at 147.32 52.0699 90)
+=======
+		(uuid "eeff05a7-7956-442b-b8fd-4d3bc8c011a4")
+		(property "Reference" "M1"
+			(at 62.23 154.94 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify right)
 			)
 		)
 		(property "Value" "SSD1306"
 			(at 147.32 54.6099 90)
+=======
+			)
+		)
+		(property "Value" "HC-12"
+			(at 59.69 154.94 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify right)
 			)
 		)
 		(property "Footprint" ""
 			(at 133.35 53.34 0)
+=======
+			)
+		)
+		(property "Footprint" "HC-12:MA05-1"
+			(at 48.26 153.67 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
+=======
+				(justify bottom)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 133.35 53.34 0)
+=======
+			(at 48.26 153.67 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,8 +3015,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "SSD1306 OLED"
 			(at 139.7 53.34 0)
+=======
+		(property "Description" ""
+			(at 48.26 153.67 0)
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,6 +3029,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(pin "1"
 			(uuid "cfe52496-f258-4b92-924b-4bb6fcffe7f0")
 		)
@@ -2486,11 +3041,120 @@
 		)
 		(pin "4"
 			(uuid "cbc75e9b-32d3-4b10-829f-9190d6b6cc86")
+=======
+		(property "MF" "HC TECH"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Wireless RF UART communication module"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC-12/HC+TECH/view-part/?ref=snap"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "HC-12"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/HC-12/HC+TECH/view-part/?ref=eda"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "GND1"
+			(uuid "c4f84a11-9584-46a2-b0a9-c316b3aae15f")
+		)
+		(pin "4"
+			(uuid "0de0c5f3-07d5-481e-b70f-5fda0ea0b286")
+		)
+		(pin "5"
+			(uuid "32ac1be2-0319-4c02-a285-202bd4d6757c")
+		)
+		(pin "GND"
+			(uuid "d462af7c-0e27-4ff0-9c28-720f5c7d90f6")
+		)
+		(pin "ANT"
+			(uuid "bfb73164-a585-4101-88eb-4b382fd513a0")
+		)
+		(pin "2"
+			(uuid "25e12540-cb21-483f-99bc-e8fb6b427c22")
+		)
+		(pin "3"
+			(uuid "115d6840-7c39-473b-a164-00bc8fe2ec38")
+		)
+		(pin "1"
+			(uuid "215c9fb2-dd3c-4d0b-b0ef-165bbf1a44bc")
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 		)
 		(instances
 			(project ""
 				(path "/99b68812-833f-43a9-a972-6383a581a604"
+<<<<<<< HEAD
 					(reference "OLEDScreen")
+=======
+					(reference "M1")
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
 					(unit 1)
 				)
 			)

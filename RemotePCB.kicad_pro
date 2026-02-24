@@ -396,6 +396,17 @@
       "version": 1
     },
     "net_format_name": "",
+<<<<<<< HEAD
+=======
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+>>>>>>> ae2a01b0d6d5de8d6fa09b4429557b5330a908b8
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
