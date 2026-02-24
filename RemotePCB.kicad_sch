@@ -2,8 +2,9 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "99b68812-833f-43a9-a972-6383a581a604")
+	(uuid 99b68812-833f-43a9-a972-6383a581a604)
 	(paper "A4")
+<<<<<<< HEAD
 	(lib_symbols
 <<<<<<< HEAD
 		(symbol "Device:C_Polarized"
@@ -3160,6 +3161,9 @@
 			)
 		)
 	)
+=======
+	(lib_symbols)
+>>>>>>> parent of ae2a01b (remote schematic)
 	(sheet_instances
 		(path "/"
 			(page "1")
