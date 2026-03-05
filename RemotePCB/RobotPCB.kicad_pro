@@ -1,14 +1,6 @@
 {
   "board": {
     "3dviewports": [],
-    "design_settings": {
-      "defaults": {},
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
-      "rules": {},
-      "track_widths": [],
-      "via_dimensions": []
-    },
     "ipc2581": {
       "dist": "",
       "distpn": "",
@@ -250,7 +242,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RemotePCB.kicad_pro",
+    "filename": "RobotPCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,7 +402,7 @@
   },
   "sheets": [
     [
-      "2560ecd8-6909-4789-aa44-069ce078f871",
+      "dc67c007-c9b2-4c31-b083-061187c8cc25",
       "Root"
     ]
   ],
